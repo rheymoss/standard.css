@@ -1,0 +1,153 @@
+
+/*
+*
+* Standard CSS by Rhey Moss
+* Free Source, everyone may use, edit, and create their own. 
+* git https://github.com/rheymoss/standard.css.git
+*
+*/
+
+
+.c5cent {width:5%}
+.c10cent {width:9%}
+.c15cent {width:14%}
+.c16cent {width:15%}
+.c20cent {width:18%}
+.c25cent {width:23%}
+.c30cent {width:29%}
+.c32cent {width:31%;margin:1%}
+.c33cent {width:32.5% !important; margin:0.3%;}
+.c35cent {width:34%}
+.c40cent {width:38%}
+.c45cent {width:44%}
+.c50cent {width:49%}
+.c55cent {width:54%}
+.c60cent {width:58%}
+.c65cent {width:64%}
+.c70cent {width:68%}
+.c75cent{width:74%}
+.c80cent {width:78%}
+.c85cent {width:84%;}
+.c90cent {width:88%}
+.c95cent {width:94%}
+.full-c10cent {width:10%}
+.full-c15cent {width:15%}
+.full-c16cent {width:16%}
+.full-c20cent {width:20%}
+.full-c25cent {width:25%}
+.full-c30cent {width:30%}
+.full-c32cent {width:32%}
+.full-c32cent-left {width:32%;float:left;margin-left:0;margin-right:1.3%}
+.full-c33cent {width:33.2%}
+.full-c35cent {width:35%}
+.full-c40cent {width:40%}
+.full-c45cent {width:45%}
+.full-c50cent {width:50%}
+.full-c55cent {width:55%}
+.full-c60cent {width:60%}
+.full-c65cent {width:65%}
+.full-c70cent {width:70%}
+.full-c75cent{width:75%}
+.full-c80cent {width:80%}
+.full-c90cent {width:90%}
+.full-c85cent {width:85%}
+.full-c95cent {width:95%}
+.full, .all {width:100%}
+.clear {clear:both}
+.separator {width:100%;clear:both;margin:18px 0;}
+.show-but-hide {display:block}
+.hide-but-show, .on-10pc {display:none}
+.hide-hide-show {display:none;}
+.will-wide {width:}
+.will-c50cent-wide, .will-c50cent {width:}
+.see {height:180px}
+.seem {height:367px}
+.see-the-sky {height:750px}
+.min-height {min-height:400px}
+.lt, .lt-rt {float:left !important}
+.rt, .rt-lt {float:right !important}
+.ct {margin:auto}
+.text-right {text-align:right}
+.text-center {text-align:center}
+.text-left {text-align:left}
+.martop {margin-top:10px}
+.markotop {margin-top:17px}
+.topMarkotop {margin-top:35px}
+.marbot {margin-bottom:10px}
+.maright {margin:2px 3px 3px 2px}
+.bgred {background-color:#e00000}
+.bgblack {background-color:#000000}
+.boradius {border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px}
+.bglight { background-image:url(pattern.jpg);border-top:1px solid #cccccc; border-bottom:1px solid #cccccc; padding:10px 0}
+.bgwhite {background-color:#ffffff}
+.bgtrans {background-color:rgba(255,255,255,.7)}
+.bgink{background-color:#fff8fc;}
+.shadow {box-shadow:1px 2px 2px #eeeeee}
+
+.bggrad {
+	background: rgb(229,229,229); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U1ZTVlNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
+}
+.tr-white {background-color:rgba(255, 255, 255, 0.8);}
+hr {border:hidden; border-bottom:1px solid #dddddd/*Gold : ffca3b*/; margin:0; padding:0}
+.standard {width:1200px; margin:auto}
+
+.full-h {height:100%}
+.hide {display:none}
+/*typo*/
+.font-xxs {font-size:.3em}
+.font-xs {font-size:.5em}
+.font-s {font-size:.7em}
+.font-sm {font-size:1em}
+.font-m {font-size:1.3em}
+.font-ml {font-size:1.5em}
+.font-l {font-size:2em}
+.font-xl {font-size:3em}
+.font-xxl {font-size:5em}
+.lighten {font-weight:lighter}
+.bolded {font-weight:bold}
+
+@media(max-width:1280px){
+.standard {width:1100px !important}
+}
+@media(max-width:1100px){
+.standard {width:900px !important}
+}
+@media(max-width:1024px){
+.standard {width:880px !important}
+ .on-10pc {display:block !important}
+}
+
+@media(max-width:824px){
+.standard {width:90% !important; padding:0 5%;}
+/**header {height:120px !important}**/
+.logo {width:100%;text-align:center}
+.c20cent {width:17% !important;}
+}
+@media(max-width:780px){
+.rt-lt {float:left !important}
+.lt-rt {float:right !important}
+.lt-ct:before {clear:both}
+.lt-ct {margin:auto !important}
+.lt-ct:after {clear:both;}
+
+.rt-ct:before {clear:both}
+.rt-ct {margin:auto !important}
+.rt-ct:after {clear:both;}
+.will-wide {width:100% !important}
+.will-c50cent-wide, .will-c50cent {width:48% !important}
+.show-but-hide {display:none !important}
+.hide-but-show {display:block !important}
+}
+@media(max-width:640px){
+.will-c50cent-wide {width:100% !important;margin:inherit 0 !important;}
+.hide-hide-show {display:block}
+}
