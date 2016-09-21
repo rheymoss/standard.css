@@ -1,4 +1,4 @@
-# standard.css v 0.0
+# Standard.css v 0.0
 
 It's all that simple! This is the very first of Standard CSS and it comes without any JS yet. 
 Might be updated on every month, year, or even decade.
@@ -43,17 +43,18 @@ Let say .c50cent, means your element has 50% size of it's container, but it's ac
 If you need to know what exactly is happening when you put it on your element -> its getting your element to the left or right, or center. Somehow .ct can't work as you expected, it needs you to put a width in it.
 
 ```
-<div class="full "></div>
+<div class="lt c20cent bgred see"></div>
 ```
 
 .text-left, .text-right, .text-center 
 It's alligning your text or image to left, right, or center
 
-
 ```
-Give examples
+<div class="lt full bgred">
+  <div class="c50cent lt see bgred text-left">Hi, I'm left</div>
+  <div class="c50cent rt see bgblack text-right">and, it's me on the right</div>
+</div>
 ```
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* to be continue
+* You can contact me by email : rheymoss1@gmail.com
