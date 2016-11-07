@@ -1,13 +1,14 @@
-
 /*
 *
 * Standard CSS by Rhey Moss
-* Free Source, everyone may use, edit, and create their own. 
+* Free Source, you may use, edit, and create your own. 
 * git https://github.com/rheymoss/standard.css.git
 *
 */
-
-
+html, body {
+  margin:0;
+}
+a {text-decoration:none; color:#333333}
 .c5cent {width:5%}
 .c10cent {width:9%}
 .c15cent {width:14%}
@@ -16,7 +17,7 @@
 .c25cent {width:23%}
 .c30cent {width:29%}
 .c32cent {width:31%;margin:1%}
-.c33cent {width:32.5% !important; margin:0.3%;}
+.c33cent {width:32.5%}
 .c35cent {width:34%}
 .c40cent {width:38%}
 .c45cent {width:44%}
@@ -30,6 +31,54 @@
 .c85cent {width:84%;}
 .c90cent {width:88%}
 .c95cent {width:94%}
+
+.r5cent {height:5%}
+.r10cent {height:9%}
+.r15cent {height:14%}
+.r16cent {height:15%}
+.r20cent {height:18%}
+.r25cent {height:23%}
+.r30cent {height:29%}
+.r32cent {height:31%;margin:1%}
+.r33cent {height:32.5%}
+.r35cent {height:34%}
+.r40cent {height:38%}
+.r45cent {height:44%}
+.r50cent {height:49%}
+.r55cent {height:54%}
+.r60cent {height:58%}
+.r65cent {height:64%}
+.r70cent {height:68%}
+.r75cent{height:74%}
+.r80cent {height:78%}
+.r85cent {height:84%;}
+.r90cent {height:88%}
+.r95cent {height:94%}
+
+.p5cent {padding:5% 0}
+.p10cent {padding:10% 0}
+.p15cent {padding:15%}
+.p16cent {padding:15%}
+.p20cent {padding:20%}
+.p25cent {padding:25%}
+.p30cent {padding:30%}
+.p32cent {padding:32%;}
+.p33cent {padding:33%}
+.p35cent {padding:35%}
+.p40cent {padding:40%}
+.p45cent {padding:45%}
+.p50cent {padding:50%}
+.p55cent {padding:55%}
+.p60cent {padding:60%}
+.p65cent {padding:65%}
+.p70cent {padding:70%}
+.p75cent {padding:75%}
+.p80cent {padding:80%}
+.p85cent {padding:85%;}
+.p90cent {padding:90%}
+.p95cent {padding:95%}
+
+
 .full-c10cent {width:10%}
 .full-c15cent {width:15%}
 .full-c16cent {width:16%}
@@ -96,6 +145,7 @@ background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(255,255,255,1)
 background: linear-gradient(to bottom,  rgba(229,229,229,1) 0%,rgba(255,255,255,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-8 */
 }
+.bgcrimson {background-color:crimson}
 .tr-white {background-color:rgba(255, 255, 255, 0.8);}
 hr {border:hidden; border-bottom:1px solid #dddddd/*Gold : ffca3b*/; margin:0; padding:0}
 .standard {width:1200px; margin:auto}
@@ -114,22 +164,47 @@ hr {border:hidden; border-bottom:1px solid #dddddd/*Gold : ffca3b*/; margin:0; p
 .font-xxl {font-size:5em}
 .lighten {font-weight:lighter}
 .bolded {font-weight:bold}
+body input[type=text],body textarea,body input[type=password],body input[type=submit],body select{
+	width:100%;
+	height:35px;
+	margin:5px 0;
+	text-indent:10px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	background-color:#fcfcfc;
+	border:1px solid #eeeeee;
+	font-family:'Source Sans Pro',sans-serif;
+	color:#333333
+}
+body textarea {width:99%;min-height:150px}	
+body input[type=text]:focus,body textarea:focus,body input[type=password]:focus,body input[type=submit]:focus, body select:focus{outline:none}
+body input[type=submit],body select {text-indent:0; margin:5px 0; width:101%; height:39px}
+body select {height:40px}
+body input[type=submit], body button{background-color:dodgerblue;color:#ffffff}
+body select {margin-top:5px;}
+body input[type=submit]:hover {box-shadow:0px 1px 2px 1px rgba(0,0,0,0.2)}
+body input[type=submit]:active {box-shadow:0px 1px 2px 1px rgba(0,0,0,0.3) inset}
 
+@media(max-width:1360px){
+.standard {width:1290px !important}
+}
 @media(max-width:1280px){
-.standard {width:1100px !important}
+.standard {width:1200px !important}
 }
 @media(max-width:1100px){
 .standard {width:900px !important}
+.c33cent {width:32.3%}
 }
 @media(max-width:1024px){
+  
 .standard {width:880px !important}
- .on-10pc {display:block !important}
+.on-10pc {display:block !important}
+
 }
 
 @media(max-width:824px){
 .standard {width:90% !important; padding:0 5%;}
-/**header {height:120px !important}**/
-.logo {width:100%;text-align:center}
 .c20cent {width:17% !important;}
 }
 @media(max-width:780px){
