@@ -87,7 +87,7 @@ a {text-decoration:none; color:#333333}
 .full-c30cent {width:30%}
 .full-c32cent {width:32%}
 .full-c32cent-left {width:32%;float:left;margin-left:0;margin-right:1.3%}
-.full-c33cent {width:33.2%}
+.full-c33cent {-webkit-flex: 0 0 33.33333%;-ms-flex: 0 0 33.33333%;flex: 0 0 33.33333%;width: 33.33333%;box-sizing: border-box;position:relative}
 .full-c35cent {width:35%}
 .full-c40cent {width:40%}
 .full-c45cent {width:45%}
@@ -126,13 +126,20 @@ a {text-decoration:none; color:#333333}
 .maright {margin:2px 3px 3px 2px}
 .bgred {background-color:#e00000}
 .bgblack {background-color:#000000}
-.boradius {border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px}
+.rounded {border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px}
 .bglight { background-image:url(pattern.jpg);border-top:1px solid #cccccc; border-bottom:1px solid #cccccc; padding:10px 0}
 .bgwhite {background-color:#ffffff}
 .bgtrans {background-color:rgba(255,255,255,.7)}
-.bgink{background-color:#fff8fc;}
+.bgpink{background-color:#fff8fc;}
 .shadow {box-shadow:1px 2px 2px #eeeeee}
 
+.button {text-align:center; font-family:'Didact Gothic';color:#ffffff; border-radius:3px; transition: 0.1s ease all;}
+.button.big {padding:.4em 2.0em;font-size:1.8em}
+.button.med {padding:.2em 1.0em;font-size:1.5em}
+.button.sma {padding:0.1em 1em;font-size:1em}
+
+.button:hover {box-shadow:0px 1px 2px 1px rgba(0,0,0,.3);box-shadow:0px 0px 3px 4px rgba(0,0,0,.1);}
+.button:active {box-shadow:0px 0px 3px 4px rgba(0,0,0,.1) inset}
 .bggrad {
 	background: rgb(229,229,229); /* Old browsers */
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -174,7 +181,7 @@ body input[type=text],body textarea,body input[type=password],body input[type=su
 	-moz-border-radius:3px;
 	background-color:#fcfcfc;
 	border:1px solid #eeeeee;
-	font-family:'Source Sans Pro',sans-serif;
+	font-family:'Didact Gothic',sans-serif;
 	color:#333333
 }
 body textarea {width:99%;min-height:150px}	
@@ -186,6 +193,37 @@ body select {margin-top:5px;}
 body input[type=submit]:hover {box-shadow:0px 1px 2px 1px rgba(0,0,0,0.2)}
 body input[type=submit]:active {box-shadow:0px 1px 2px 1px rgba(0,0,0,0.3) inset}
 
+#standard-modal {
+  
+  position:fixed;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  
+  overflow-x:hidden;
+  overflow-y: auto;
+  background-color:rgba(0,0,0,0.8);
+  
+  z-index:99;
+}
+
+.modal {
+  
+  border-radius:4px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  background-color:#ffffff;
+  
+  position:fixed;
+  width:60%;
+  left:20%;
+  top:5%;
+  
+  z-index: 999999999;
+  
+}
+.noinline { outline: none;outline-offset:none;}
 @media(max-width:1360px){
 .standard {width:1290px !important}
 }
@@ -194,7 +232,7 @@ body input[type=submit]:active {box-shadow:0px 1px 2px 1px rgba(0,0,0,0.3) inset
 }
 @media(max-width:1100px){
 .standard {width:900px !important}
-.c33cent {width:32.3%}
+.c33cent {width:32.1%}
 }
 @media(max-width:1024px){
   
@@ -206,6 +244,8 @@ body input[type=submit]:active {box-shadow:0px 1px 2px 1px rgba(0,0,0,0.3) inset
 @media(max-width:824px){
 .standard {width:90% !important; padding:0 5%;}
 .c20cent {width:17% !important;}
+  .will-c50cent {width:50%}
+  .will-wide {width:100% !Important}
 }
 @media(max-width:780px){
 .rt-lt {float:left !important}
