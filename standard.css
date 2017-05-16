@@ -171,7 +171,7 @@ hr {border:hidden; border-bottom:1px solid #dddddd/*Gold : ffca3b*/; margin:0; p
 .font-xxl {font-size:5em}
 .lighten {font-weight:lighter}
 .bolded {font-weight:bold}
-body input[type=text],body textarea,body input[type=password],body input[type=submit],body select{
+body input[type=text],body input[type=date],body input[type=email],body textarea,body input[type=password],body input[type=submit],body select{
 	width:100%;
 	height:35px;
 	margin:5px 0;
@@ -185,7 +185,7 @@ body input[type=text],body textarea,body input[type=password],body input[type=su
 	color:#333333
 }
 body textarea {width:99%;min-height:150px}	
-body input[type=text]:focus,body textarea:focus,body input[type=password]:focus,body input[type=submit]:focus, body select:focus{outline:none}
+body input[type=text]:focus,body input[type=date]:focus,body input[type=email]:focus,body textarea:focus,body input[type=password]:focus,body input[type=submit]:focus, body select:focus{outline:none}
 body input[type=submit],body select {text-indent:0; margin:5px 0; width:101%; height:39px}
 body select {height:40px}
 body input[type=submit], body button{background-color:dodgerblue;color:#ffffff}
